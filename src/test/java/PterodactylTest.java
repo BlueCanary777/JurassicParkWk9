@@ -26,7 +26,7 @@ public class PterodactylTest {
 
     @Test
     public void getDinoType() {
-        assertEquals( dinoType.HERBIVORE, terry1.getDinoType());
+        assertEquals( dinoType.CARNIVORE, terry1.getDinoType());
     }
 
     // test dino eat method
