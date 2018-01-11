@@ -14,6 +14,27 @@ public class PterodactylTest {
         Pterodactyl terry2 = new Pterodactyl("June");
     }
 
+    @Test
+    public void getName() {
+        assertEquals("diplomat", terry1.name);
+    }
+
+    @Test
+    public void getFullness() {
+        assertEquals(true, terry1.getFullness());
+    }
+
+    @Test
+    public void getDinoType() {
+        assertEquals( dinoType.HERBIVORE, terry1.getDinoType());
+    }
+
+    // test dino eat method
+    @Test
+    public void eatTest() {
+        assertEquals(true, terry1.eat());
+    }
+
     // test fly
     @Test
     public void flyTest() {

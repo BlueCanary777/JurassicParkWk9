@@ -1,6 +1,6 @@
 public abstract class Dinosaur {
-    private Boolean fullness;
-    private Enum dinoType;
+    protected Boolean fullness;
+    protected Enum dinoType;
     protected String name;
 
     public Dinosaur(Boolean fullness, Enum dinoType, String name) {
