@@ -18,4 +18,7 @@ public abstract class Dinosaur {
     }
 
     // eat method
+    public Boolean eat() {
+        return this.fullness = true;
+    }
 }

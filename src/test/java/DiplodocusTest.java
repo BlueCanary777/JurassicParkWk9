@@ -31,4 +31,8 @@ public class DiplodocusTest {
     }
 
     // test dino eat method
+    @Test
+    public void eatTest() {
+        assertEquals(true, dippy1.eat());
+    }
 }
