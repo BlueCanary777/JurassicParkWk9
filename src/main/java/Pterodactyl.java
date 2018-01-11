@@ -8,4 +8,7 @@ public class Pterodactyl extends Dinosaur{
     }
 
     // fly to make fullness false
+    public Boolean fly() {
+        return !this.eat();
+    }
 }

@@ -1,8 +1,12 @@
 import org.junit.Before;
+import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class PterodactylTest {
+
+    Pterodactyl terry1;
+    Pterodactyl terry2;
 
     @Before
     public void setUp() {
@@ -11,4 +15,8 @@ public class PterodactylTest {
     }
 
     // test fly
+    @Test
+    public void flyTest() {
+        assertEquals(false, terry1.fly());
+    }
 }
