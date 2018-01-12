@@ -26,4 +26,7 @@ public class Paddock {
     public void addToPaddock(Pterodactyl terry1) {
         this.dinos.add(terry1);
     }
+
+    public void removeFromPaddock(Pterodactyl terry1) {
+    }
 }

@@ -21,5 +21,9 @@ public class Park {
         this.paddock1.add(paddock);
     }
 
+    public Paddock removeFromPaddock(Pterodactyl terry1) {
+        return this.paddock1.remove(0);
+    }
+
 
 }
