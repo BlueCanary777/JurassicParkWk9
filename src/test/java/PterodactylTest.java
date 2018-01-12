@@ -15,17 +15,17 @@ public class PterodactylTest {
     }
 
     @Test
-    public void getName() {
+    public void hasName() {
         assertEquals("Terry", terry1.getName());
     }
 
     @Test
-    public void getFullness() {
+    public void fullnessTest() {
         assertEquals(true, terry1.getFullness());
     }
 
     @Test
-    public void getDinoType() {
+    public void dinoTypeTest() {
         assertEquals( dinoType.CARNIVORE, terry1.getDinoType());
     }
 

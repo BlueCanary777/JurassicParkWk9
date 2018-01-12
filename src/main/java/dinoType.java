@@ -1,4 +1,6 @@
 public enum dinoType {
     HERBIVORE,
-    CARNIVORE
+    CARNIVORE, value;
 }
+
+
