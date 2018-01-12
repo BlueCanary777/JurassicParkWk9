@@ -16,7 +16,7 @@ public class PterodactylTest {
 
     @Test
     public void getName() {
-        assertEquals("diplomat", terry1.name);
+        assertEquals("Terry", terry1.getName());
     }
 
     @Test
