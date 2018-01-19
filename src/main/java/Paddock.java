@@ -3,12 +3,11 @@ import java.util.ArrayList;
 public class Paddock {
     private String paddockName;
     private int capacity;
-    protected ArrayList<Dinosaur> paddock;
+    private ArrayList<Dinosaur> dinosaurs;
 
     public Paddock(String paddockName, int capacity) {
         this.paddockName = paddockName;
         this.capacity = capacity;
-        this.paddock = new ArrayList<Dinosaur>();
     }
 
     public String getPaddockName() {
@@ -20,13 +19,18 @@ public class Paddock {
     }
 
     public int dinoCount() {
-        return this.paddock.size();
+        return this.dinosaurs.size();
     }
 
     public void addToPaddock(Pterodactyl terry1) {
-        this.paddock.add(terry1);
+        this.dinosaurs.add(terry1);
+        this.dinosaurs.add(te)
     }
 
-    public void removeFromPaddock(Pterodactyl terry1) {
+    public void removeDinosaur(Dinosaur dinosaur) {
+        .remove(dinosaur);
     }
+
+//    public void removeFromPaddock(Pterodactyl terry1) {
+//    }
 }

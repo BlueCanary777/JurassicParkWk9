@@ -1,11 +1,7 @@
 public class Pterodactyl extends Dinosaur{
 
-    protected Pterodactyl pterodactyl;
-    protected dinoType dinoType;
-
-
     public Pterodactyl(String name) {
-        super(false, dinoType.CARNIVORE, name);
+        super(false, DinoType.CARNIVORE, name);
     }
 
     public boolean fly() {

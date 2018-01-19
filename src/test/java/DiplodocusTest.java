@@ -22,12 +22,12 @@ public class DiplodocusTest {
 
     @Test
     public void getFullness() {
-        assertEquals(true, dippy1.getFullness());
+        assertEquals(false, dippy1.getFullness());
     }
 
     @Test
     public void getDinoType() {
-        assertEquals( dinoType.HERBIVORE, dippy1.getDinoType());
+        assertEquals( DinoType.HERBIVORE, dippy1.getDinoType());
     }
 
     // test dino eat method

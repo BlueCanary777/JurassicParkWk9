@@ -6,19 +6,33 @@ import static java.util.concurrent.locks.LockSupport.park;
 public class Park {
     protected String parkName;
     protected int totalCapacity;
-    protected ArrayList<Dinosaur> paddock1;
+    protected ArrayList<Paddock> paddocks;
 
     public Park(String parkName, int totalCapacity) {
         this.parkName = parkName;
         this.totalCapacity = totalCapacity;
-        this.paddock1 = new ArrayList<Dinosaur>();
     }
 
     public String getParkName() {
         return this.parkName;
     }
 
-//    public ArrayList addDinosaur(Pterodactyl terry1) {
+    public void addPaddock(Paddock paddock) {
+        paddocks.add(paddock);
+        paddocks.add(paddock);
+    }
+
+    public int getNumberOfPaddocks() {
+        return paddocks.size();
+    }
+
+
+
+//    public ArrayList<Dinosaur> getPaddock1() {
+//        return paddock1;
+//    }
+
+    //    public ArrayList addDinosaur(Pterodactyl terry1) {
 //        this.paddock1(terry1);
 //    }
 //

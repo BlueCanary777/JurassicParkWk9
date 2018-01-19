@@ -10,8 +10,8 @@ public class PterodactylTest {
 
     @Before
     public void setUp() {
-        Pterodactyl terry1 = new Pterodactyl("Terry");
-        Pterodactyl terry2 = new Pterodactyl("June");
+         terry1 = new Pterodactyl("Terry");
+         terry2 = new Pterodactyl("June");
     }
 
     @Test
@@ -21,12 +21,12 @@ public class PterodactylTest {
 
     @Test
     public void fullnessTest() {
-        assertEquals(true, terry1.getFullness());
+        assertEquals(false, terry1.getFullness());
     }
 
     @Test
     public void dinoTypeTest() {
-        assertEquals( dinoType.CARNIVORE, terry1.getDinoType());
+        assertEquals( DinoType.CARNIVORE, terry1.getDinoType());
     }
 
     // test dino eat method

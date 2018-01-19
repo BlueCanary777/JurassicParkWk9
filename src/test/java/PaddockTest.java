@@ -9,6 +9,9 @@ public class PaddockTest {
     Paddock paddock1;
     Paddock paddock2;
     Pterodactyl terry1;
+    Pterodactyl terry2;
+    Diplodocus dippy1;
+    Diplodocus dippy2;
 
     @Before
     public void before() {
